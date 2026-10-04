@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickNotes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>QuickNotes</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Welcome to QuickNotes</h2>
+            <p>QuickNotes is a simple place to create and organize your notes quickly.</p>
+        </section>
+
+        <section>
+            <h2>Create a Note</h2>
+
+            <form>
+                <div>
+                    <label for="note-title">Note Title</label>
+                    <input type="text" id="note-title" name="note-title" required>
+                </div>
+
+                <div>
+                    <label for="note-content">Note Content</label>
+                    <textarea id="note-content" name="note-content" rows="6" required></textarea>
+                </div>
+
+                <button type="submit">Save Note</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>My Notes</h2>
+
+            <article>
+                <h3>Welcome Note</h3>
+                <p>This is an example note for QuickNotes.</p>
+            </article>
+
+            <article>
+                <h3>Today's Tasks</h3>
+                <p>Complete the Day 2 CSS assignment.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 QuickNotes</p>
+    </footer>
+
+</body>
+</html>
